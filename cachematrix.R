@@ -1,4 +1,4 @@
-## These functions calculates the inverse of a matrix and cache that value
+## These functions calculate the inverse of a matrix and cache that value
 ## If the value is already cached, then it is retrieved instead of being calculated from scratch
 
 ## Create a special vector which contains functions to do the following
@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Calculates the inverse of the matrix created with the above function
-## First, checks to see if iverse has already been calculated
+## First, checks to see if the inverse has already been calculated
 ## If it has, it gets the inverse from the cache and skips the computation
 ## Otherwise, it calculates the inverse and set the value via setinverse()
 
